@@ -32,3 +32,13 @@ nav {
 #last-hr {
     margin-top: 200px;
 }
+
+#top-footer {
+    background-color: #3A546D;
+    color: white;
+}
+
+#bottom-footer {
+    background-color: #2C3E50;
+    color: white;
+}

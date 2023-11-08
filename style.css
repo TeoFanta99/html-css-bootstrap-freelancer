@@ -51,3 +51,11 @@ nav i {
     background-color: #2C3E50;
     color: white;
 }
+
+footer span {
+    display: block;
+}
+
+footer i {
+    color: white;
+}

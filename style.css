@@ -2,12 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
 }
 
 nav {
     background-color: #2C3E50;
     min-height: 70px;
+    color: white;
+    font-weight: bold;
+}
+
+nav .row {
+    width: 100%;
+}
+
+nav i {
+    color: #91979D;
 }
 
 #jumbotron {
@@ -25,9 +34,9 @@ nav {
     color: white;
 }
 
-#form {
+/* #form {
     width: 80%;
-}
+} */
 
 #last-hr {
     margin-top: 200px;

@@ -1,0 +1,21 @@
+/* versione smartphone (xs) - da 575px in giù */
+@media all and (max-width: 575px) {
+
+}
+
+
+
+/* versione tablet (sm e md) - da 576px a 991px */
+@media all and (max-width: 991px) {
+    
+}
+
+
+
+/* versione compter (lg) - da 992px in su */
+@media all and (min-width: 992px) {
+    
+}
+
+
+

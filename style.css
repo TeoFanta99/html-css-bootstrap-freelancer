@@ -24,6 +24,11 @@ nav i {
     min-height: 300px;
 }
 
+
+#jumbotron img {
+    width: 30%;
+}
+
 [class*="col-"] {
     justify-content: center;
     align-items: center;
@@ -37,6 +42,15 @@ nav i {
 /* #form {
     width: 80%;
 } */
+
+#portfolio {
+    padding-bottom: 45px;
+}
+
+#portfolio img {
+    border-radius: 10px;
+    margin-top: 15px;
+}
 
 #last-hr {
     margin-top: 200px;

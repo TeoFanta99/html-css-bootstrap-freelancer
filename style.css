@@ -2,4 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
+}
+
+nav {
+    background-color: #2C3E50;
+    min-height: 70px;
+}
+
+#jumbotron {
+    background-color: #1ABB9C;
+    min-height: 300px;
+}
+
+[class*="col-"] {
+    justify-content: center;
+    align-items: center;
+}
+
+#about {
+    background-color: #1ABB9C;
+    color: white;
+}
+
+#form {
+    width: 80%;
+}
+
+#last-hr {
+    margin-top: 200px;
 }

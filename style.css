@@ -29,19 +29,12 @@ nav i {
     width: 30%;
 }
 
-[class*="col-"] {
-    justify-content: center;
-    align-items: center;
-}
 
 #about {
     background-color: #1ABB9C;
     color: white;
 }
 
-/* #form {
-    width: 80%;
-} */
 
 #portfolio {
     padding-bottom: 45px;
@@ -52,8 +45,15 @@ nav i {
     margin-top: 15px;
 }
 
-#last-hr {
-    margin-top: 200px;
+.btn-green {
+    background-color: #1ABB9C;
+    color: white;
+    border: none;
+}
+
+.btn-green:hover {
+    color: white;
+    opacity: 0.8;
 }
 
 #top-footer {

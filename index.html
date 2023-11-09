@@ -144,46 +144,36 @@
 
             <div class="container container-sm container-lg">
 
-                <!-- qui ci va la scritta "contact me" -->
-                <div class="row">
-                    <div class="col-12">CONTACT ME</div>
-                </div>
-            
-
-                <!-- qui ci va la linea con la stella -->
-                <div class="row">
-                    <div class="col-12">linea con stella</div>
+                <!-- qui ci va la scritta "contact me" e la linea con la stella -->
+                <div class="row ">
+                    <div class="col-12 d-flex justify-content-center">
+                        <span>CONTACT ME</span>
+                        <span>-*-</span>
+                    </div>
                 </div>
 
                 <!-- qui ci va il form da compilare -->
                 <div id="form" class="container container-sm container-lg">
 
-                    <div class="row">
-                        <div class="col-12">name</div>
-                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col col-8">
+                            <form action="">
 
-                    <hr>
+                                <input type="text" class="form-control mb-3" placeholder="First name" aria-label="Name">
+                                
+                                <input type="text" class="form-control mb-3" placeholder="Email Address" aria-label="Email Address">
 
-                    <div class="row">
-                        <div class="col-12">email</div>
-                    </div>
-    
-                    <hr>
-    
-                    <div class="row">
-                        <div class="col-12">phone</div>
-                    </div>
-    
-                    <hr>
-    
-                    <div class="row">
-                        <div class="col-12">message</div>
-                    </div>
-    
-                    <hr id="last-hr">
-    
-                    <div class="row">
-                        <div class="col-2">send</div>
+                                <input type="text" class="form-control mb-3" placeholder="Phone Number" aria-label="Phone Number">
+
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control mb-3" id="exampleFormControlTextarea1" rows="5"></textarea>
+
+                                <button type="button" class="btn btn-green mb-3">Send</button>
+
+                            </form>
+
+                            
+                        </div>
                     </div>
 
 

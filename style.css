@@ -48,6 +48,19 @@ header .row {
     margin-top: 15px;
 }
 
+#about {
+    padding-bottom: 30px;
+}
+
+.btn-transparent {
+    background-color: rgba (0,0,0,0);
+    border: 1px solid white;
+}
+
+#contact-me {
+    margin-top: 20px;
+}
+
 .btn-green {
     background-color: #1ABB9C;
     color: white;
@@ -62,15 +75,40 @@ header .row {
 #top-footer {
     background-color: #3A546D;
     color: white;
+    padding-top: 30px;
+}
+
+#top-footer .row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#top-footer i {
+    border: 1px solid white;
+    border-radius: 90%;
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+#top-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+#top-footer li {
+    display: inline-block;
+}
+
+#top-footer a {
+    text-decoration: none;
 }
 
 #bottom-footer {
     background-color: #2C3E50;
     color: white;
-}
-
-footer span {
-    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 footer i {

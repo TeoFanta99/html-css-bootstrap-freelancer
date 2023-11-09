@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 header {
     background-color: #2C3E50;
 }
@@ -11,18 +15,23 @@ header {
 
 header .row {
     width: 100%;
+    margin: 0 auto;
 }
 
 #jumbotron {
     background-color: #1ABB9C;
     min-height: 300px;
+    color: white;
 }
 
 
 #jumbotron img {
-    width: 30%;
+    width: 50%;
 }
 
+#competenze {
+    font-size: 13px;
+}
 
 #about {
     background-color: #1ABB9C;

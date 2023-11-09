@@ -15,10 +15,10 @@ hr {
     opacity: 1;
 }
 
-header {
+
+#bg-navbar {
     background-color: #2C3E50;
 }
-
 
 header .row {
     width: 100%;

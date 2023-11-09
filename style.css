@@ -8,6 +8,13 @@ body {
     overflow-x: hidden;
 }
 
+hr {
+    height: 3px;
+    width: 100px;
+    color: white;
+    opacity: 1;
+}
+
 header {
     background-color: #2C3E50;
 }
@@ -29,8 +36,13 @@ header .row {
     width: 50%;
 }
 
+
 #competenze {
     font-size: 13px;
+}
+
+#portfolio hr, #contact-me hr {
+    color: black;
 }
 
 #about {

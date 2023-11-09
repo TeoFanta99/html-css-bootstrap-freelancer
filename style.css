@@ -4,19 +4,13 @@
     box-sizing: border-box;
 }
 
-nav {
+header {
     background-color: #2C3E50;
-    min-height: 70px;
-    color: white;
-    font-weight: bold;
 }
 
-nav .row {
+
+header .row {
     width: 100%;
-}
-
-nav i {
-    color: #91979D;
 }
 
 #jumbotron {
